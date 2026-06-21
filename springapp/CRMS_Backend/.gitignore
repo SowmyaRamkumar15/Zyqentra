@@ -1,12 +1,19 @@
-# Maven
 target/
-springapp/target/
-
-# secrets
-application-local.properties
+# Environment files
 .env
+.env.local
 
-# IDE
+# Configuration with passwords
+application.properties
+application.yml
+
+# Keys and certificates
+*.pem
+*.key
+
+# IDE files
 .idea/
 .vscode/
-*.iml
+
+# Logs
+*.log
